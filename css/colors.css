@@ -1,0 +1,10 @@
+:root {
+    --black: rgb(3, 1, 6);
+    --blacky-blue: rgb(16, 23, 49);
+    --blue: rgb(11,59,137);
+    --dark-desert: rgb(51, 40, 36);
+    --desert: rgb(159, 139, 112);
+    --grey: rgb(153, 159, 185);
+    --white: rgb(230, 230, 230);
+    --white-10: rgba(230, 230, 230, 0.1);
+}

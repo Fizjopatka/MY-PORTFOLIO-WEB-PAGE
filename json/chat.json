@@ -1,0 +1,29 @@
+{
+    "chat": [
+        {
+            "tags": ["cześć", "czesc", "hej", "elo", "elko", "eluwina", "dzień dobry", "dzien dobry", "dobre rano", "witaj"],
+            "answer": "Cześć. Miło mi Cię poznać. <br> Jeżeli chcesz to możesz zapytać mnie o np. projekty, zgasić/zapalić światło i wiele innych. Sprawdź sam!"
+        },
+        {
+            "tags": ["kim jesteś", "czym jesteś"],
+            "answer": "Jestem prostym autoresponderem. Marzę, żeby zostać SI jak dorosnę. <br> Natomiast jeżeli pytasz o Patrycję to jej marzeniem jest praca jako frontend developer w Twojej firmie."
+        },
+        {
+            "tags": ["zapal", "zapal światło", "zapal swiatlo", "włącz lampki", "wlacz lampki", "zapal lampki"],
+            "answer": "Proszę bardzo, lampki są włączone."
+        },
+        {
+            "tags": ["zgaś", "wyłącz światło", "wylacz swiatlo", "zgaś swiatło", "zgas lampki", "wylacz lampki", "wyłącz lampki"],
+            "answer": "Proszę bardzo, lampki są wyłączone."
+        },
+        {
+            "tags": ["help", "pomoc"],
+            "answer": "Dostępne tematy do rozmów: <br> cześć, kim jesteś, włącz lampki, wyłącz lampki."
+        },
+        {
+            "tags": ["projekt", "projekty", "portfolio"],
+            "answer": "Nazwy projektów: JM SERVICE, PHYSIOOUTLINE, CONNECT THE DOTS. <br> Aby dowiedzieć się o projekcie więcej i uruchomić go w przeglądarce wpisz nazwe projektu na czacie. "
+        }
+
+    ]
+}

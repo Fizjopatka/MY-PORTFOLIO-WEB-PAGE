@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Patrycja Hańdziuk</title>
+    </head>
+    <body> 
+        <main>
+            <nav class="nav-line"></nav>
+            <nav class="nav navbar"> Patrycja Hańdziuk
+                <div class="w-100"></div>
+                <div>frontend developer</div>
+            </nav>
+            <div class="background-container justify-content-center">
+                <img class="background-img" id="background-1" src="img/background-1.jpg">
+                <img class="background-img" id="background-2" src="img/background-2.jpg">
+                <img class="background-img" id="click-to-start" src="img/click-to-start.png">
+                <img class="background-img click-to-start-hover" id="click-to-start-hover" src="img/click-to-start-hover.png">
+                <img class="background-img asyst-wake" id="asyst-wake" src="img/wake-asist.png">
+                <img class="background-img" id="lofi-gif" src="img/lofi.gif">
+                <img class="background-img lofi-red" id="lofi-red" src="img/lofi-play-red.png">
+                <img class="background-img lofi-red lofi-none" id="lofi-play" src="img/lofi-play.png">
+                <img class="background-img lofi-red lofi-none" id="lofi-pause" src="img/lofi-pause.png">
+                <div class="map-layer">
+                    <div id="lights" class="map-button map-button-hover"></div>
+                    <div id="lights-2" class="map-button map-button-hover lights-2"></div>
+                    <div id="lofi" class="map-button map-button-hover lofi"></div>
+                    <div id="click" class="map-button map-button-hover click "></div>
+                    <div id="assistant-ring" class="map-button assistant-ring"></div>
+                    <div id="plant" class="map-button map-button-hover plant"></div>
+                    <div id="keyboard" class="map-button map-button-hover keyboard"></div>
+                </div>
+            </div>
+            <div class="assistant-interface container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <div class="chat-window interface-box flex row">
+                            <div class="col-12 interface-bar navbar"> 
+                                <p class="ml-2"><span class="chat-img"><img class="x-img mr-1" src="img/chat.png"></span>assistant chat</p>
+                                <div id="x-interface" class="x-interface mr-1"><img class="x-img" src="img/x.png"></div>
+                            </div>
+                            <div class="input-container col-12">
+                                <div class="w-100 text-container">
+                                    <div id="printed-message" class="printed-message"></div>
+                                </div>
+                                <div class="w-100 input-text-container">
+                                    <input placeholder=" Zadaj mi pytanie" id="input-message" class="input-message" type="text"><div id="send-message" class="send-message"><img class="x-img" src="img/send.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="interface-box output-container">
+                            <div id="assistant-message" class="assistant-message"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="start-animation" class="start-animation"></div>
+            <div class="assist-animation">
+                <div id="white-start" class="white-start">
+                    <div id="circle" class="circle"></div>
+                    <div id="initializing" class="init">
+                        INITIALIZING
+                        <div id="progress-bar-1" class="progress-bar"></div>
+                    </div>
+                    <div id="copying" class="init">
+                        COPYING DATA
+                        <div id="progress-bar-2" class="progress-bar"></div>
+                    </div>
+                    <div id="uploading" class="init">
+                        UPLOADING PATKA AWARENESS
+                        <div id="progress-bar-3" class="progress-bar"></div>
+                    </div>
+                    <div id="starting" class="init">
+                        STARTING <span class="dots">.</span><span class="dots">.</span><span class="dots">.</span>
+                    </div>
+                </div>
+            </div> 
+        </main>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
